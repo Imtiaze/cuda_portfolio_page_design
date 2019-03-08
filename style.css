@@ -171,8 +171,11 @@ body{
 .team-area{
   background: #e7f1f8;
   overflow: hidden;
-  text-align: center;
   color: #3c4761;
+}
+
+.team-member{
+  text-align: center;
 }
 
 .team-header h1{
@@ -181,6 +184,7 @@ body{
   margin-bottom: 3px;
   letter-spacing: 1px;
   margin-top: 90px;
+  text-align: center;
 }
 
 .team-header hr{
@@ -226,22 +230,61 @@ body{
 }
 
 .social ul{
+  padding: 0;
   list-style: none;
 }
 .social ul li{
-  float: left;
-
+display: inline;
 }
-
 .social ul li a{
-
-  padding: 7px 10px;
-  background: #bdd1df;
-  margin: 4px;
-  border-radius: 50%;
-  color: #fff;
-
+  text-decoration: none;
 }
-.social ul li a:hover{
+.social ul li a i{
+  font-size: 15px;
+  height: 15px;
+  width: 15px;
+  background: #bdd1df;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.social ul li a i:hover{
   background: #8e44ad;
+}
+
+/***
+*
+**** Skill area *****
+*/
+
+
+
+.skill-area{
+  background: #FFFFFF;
+  overflow: hidden;
+  text-align: center;
+  color: #3c4761;
+}
+
+.skill-header h1{
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  letter-spacing: 1px;
+  margin-top: 90px;
+}
+
+.skill-header hr{
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 4px solid #dfe8ed;
+  width: 80px;
+}
+
+.skill-header p{
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
 }
