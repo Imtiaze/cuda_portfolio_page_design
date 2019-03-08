@@ -1,0 +1,247 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+  max-width: 1024px;
+  width: 85%;
+  margin: auto;
+}
+
+/*
+***** Header area ***
+*/
+
+.header-area{
+  background: #87509c;
+  overflow: hidden;
+}
+
+.header-top{
+  margin-top: 55px;
+}
+
+.logo{
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+.top-menu{
+
+}
+.top-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+
+}
+.top-menu ul li {
+  float: left;
+  margin-left: 10px;
+}
+.top-menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+
+  font-size: 14px;
+  padding: 7px 15px;
+  border-radius: 4px;
+  display: block;
+}
+.top-menu ul li  .current,
+.top-menu ul li a:hover{
+  background: #643a79;
+}
+
+.header-action{
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color:#fff;
+}
+
+.header-action h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 110px;
+  line-height: 50px;
+}
+
+.button{
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 21px 65px;
+  border-radius: 4px;
+}
+
+.header-area .button{
+  color:#fff;
+  text-align: center;
+  text-decoration: none;
+  background: #eb7d4b;
+  border-bottom: 3px solid #c86a40;
+  display: inline-block;
+  margin: 25px 0 110px;
+}
+.header-action a:hover{
+  background: linear-gradient(#eb7d4b,#c86a40);
+}
+
+
+
+
+
+/**
+*
+****** Service area ***
+*
+*/
+
+.service-area{
+  background: #17c2a4;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+}
+.service-header{
+  padding-top: 30px;
+}
+.service-header h1{
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  letter-spacing: 1px;
+}
+
+.service-header hr{
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 4px solid #14a58c;
+  width: 80px;
+}
+
+.service-header p{
+  font-size: 20px;
+  width: 64%;
+  margin: auto;
+}
+
+.services{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 110px;
+}
+
+.col-4{
+  width: 24%;
+  display: inline-block;
+}
+
+.service-item img{
+  width: : 70px;
+  height: : 101px;
+}
+.service-item h3{
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.service-item p{
+  width: 80%;
+  margin: auto;
+}
+
+
+/**
+*
+****** Team area ***
+*
+*/
+
+
+.team-area{
+  background: #e7f1f8;
+  overflow: hidden;
+  text-align: center;
+  color: #3c4761;
+}
+
+.team-header h1{
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  letter-spacing: 1px;
+  margin-top: 90px;
+}
+
+.team-header hr{
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 4px solid #c8d9e5;
+  width: 80px;
+}
+
+.team-header p{
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.teams{
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+.team-member img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.team-member h3{
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+
+}
+.team-member h4{
+  margin-top: 0px;
+  font-size: 16px;
+  color: #8cd1ee;
+
+}
+.team-member p{
+  width: 80%;
+  margin: auto;
+}
+
+.social ul{
+  list-style: none;
+}
+.social ul li{
+  float: left;
+
+}
+
+.social ul li a{
+
+  padding: 7px 10px;
+  background: #bdd1df;
+  margin: 4px;
+  border-radius: 50%;
+  color: #fff;
+
+}
+.social ul li a:hover{
+  background: #8e44ad;
+}
